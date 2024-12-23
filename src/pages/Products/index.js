@@ -152,6 +152,7 @@ function Products() {
                     LinkComponent={Link}
                     to="/products/addToCart"
                     variant="contained"
+                    onClick={() => handleaddToCart(product._id)}
                     fullWidth
                     sx={{
                       marginBottom: "10px",
